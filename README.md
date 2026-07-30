@@ -158,7 +158,7 @@ The application runs inside a container with:
 ## 👨‍💻 Author
 
 <li>Pavel Youmsi</li>
-<li style="">GitHub: https://github.com/YFRP01</li>
+<li style="">GitHub: <a href="https://github.com/YFRP01">https://github.com/YFRP01</a></li>
 <li>Gmail: <a href="yfrp.dev@gmail.com">yfrp.dev@gmail.com</a></li>
 
 <h2 align="center" style="text-color: #ee2f2292"> Built with ❤️ using Node.js and Express.js </h2>
