@@ -1,6 +1,8 @@
-<div style="display: flex; align-items: center; justify-content: center; width: full;">
-<h3>👉 Visit <a href="https://subscription-tracker-api-efe3d.containers.snapdeploy.app">SUBSCRIPTION_TRACKER_API</a> by clicking on this link</h3>
+<div style="margin: 0 auto">
+👉 Visit <a href="https://subscription-tracker-api-efe3d.containers.snapdeploy.app">SUBSCRIPTION_TRACKER_API</a> by clicking on this link
 </div>
+
+
 ## 📋 Table of Contents
 
 1. 🤖 Introduction
