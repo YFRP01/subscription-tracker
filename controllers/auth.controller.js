@@ -75,5 +75,13 @@ export const signIn = async(req, res, next) => {
 }
 
 export const signOut = async(req, res, next) => {
-    
+    try {
+
+        res.status(200).json({
+            success: true,
+            message: "Successfull Sign out operation",
+        })
+    } catch (error) {
+        next(error)
+    }
 }

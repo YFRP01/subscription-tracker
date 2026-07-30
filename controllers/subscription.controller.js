@@ -16,6 +16,11 @@ export const getSubscription = async (req, res, next) => {
     try {
         const {id} = req.params
         const subscription = await Subscription.findOne({_id: id})
+        if(!subscription) {
+            const error = new Error('Subscription not found');
+            error.statusCode = 404;
+            throw error;
+        }        
         res.status(200).json({success: true, data: subscription})
     } catch (error) {
         next(error)
@@ -68,19 +73,19 @@ export const deleteSubscription = async (req, res, next) => {
 export const cancelSubscription = async (req, res, next) => {
     try {
         const {id} = req.params
-        const subscription = await Subscription.updateOne(
-            {_id: id},
-            {staus: "expired", renewalDate: new Date()}
+
+        const subscription = await Subscription.findById(id);
+        if (!subscription) {
+            const error = new Error('Subscription not found');
+            error.statusCode = 404;
+            throw error;
+        }
+
+        const updated = await Subscription.findByIdAndUpdate(
+            id,
+            {status: "expired", renewalDate: new Date()}
         )
-        if(subscription.matchedCount === 0){
-            const error = new Error('Subscription not found')
-            error.statusCode = 404
-            throw error 
-        }
-        if(subscription.modifiedCount === 0){
-            return res.status(200).json({success:true, message: "No cancelation operated"})
-        }
-        res.status(200).json({success:true, message: "Cancel successful"})
+        res.status(200).json({success:true, message: "Cancel successful", data: updated})
     } catch (error) {
         next(error)
     }
