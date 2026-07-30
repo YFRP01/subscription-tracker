@@ -4,7 +4,7 @@
      style="text-decoration: none; color: #ffd700; font-weight: bold;">
     SUBSCRIPTION_TRACKER_API
   </a> 
-  by clicking on this link
+  by clicking on this link 
 </h2>
 
 ## 📋 Table of Contents
