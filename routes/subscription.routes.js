@@ -18,7 +18,6 @@ subRouter.get('/user/:id', authorize, getUserSubscriptions)
 
 subRouter.put('/:id/cancel', authorize, cancelSubscription)
 
-subRouter.get('/upcoming-renewals', (req, res) => { res.send({success: true, message: "GET upcoming renewals"}) })
 
 
 export default subRouter
