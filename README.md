@@ -1,5 +1,5 @@
 <div style="display: flex; align-items: center; justify-content: center; width: full;">
-<h1>👉 Visit <a href="https://subscription-tracker-api-efe3d.containers.snapdeploy.app">SUBSCRIPTION_TRACKER_API</a> by clicking on this link</h1>
+<h5>👉 Visit <a href="https://subscription-tracker-api-efe3d.containers.snapdeploy.app">SUBSCRIPTION_TRACKER_API</a> by clicking on this link</h5>
 </div>
 ## 📋 Table of Contents
 
@@ -112,7 +112,7 @@ subscription-tracker-api
 The API is deployed using Docker on <span style="text-decoration: underline dotted;">SnapDeploy</span>.
 
 **Live endpoint:**
-👉 
+👉
 
 The application runs inside a container with:
 
@@ -125,33 +125,32 @@ The application runs inside a container with:
 
 **Authentication Endpoints:**
 
-Method	Endpoint	Description
-POST	/api/v1/auth/sign-up	Register a new user
-POST	/api/v1/auth/sign-in	Login user
-Subscription Endpoints:
+<ul>
+<li>POST  /api/v1/auth/sign-up	Register a new user</li>
+<li>POST	/api/v1/auth/sign-in	Login user</li>
+</ul>
 
-Method	Endpoint	Description
-GET	/api/v1/subscriptions	Get all subscriptions
-GET	/api/v1/subscriptions/:id	Get a subscription
-POST	/api/v1/subscriptions	Create a subscription
-PUT	/api/v1/subscriptions/:id	Update a subscription
-DELETE	/api/v1/subscriptions/:id	Delete a subscription
-PUT	/api/v1/subscriptions/:id/cancel	Cancel a subscription
-GET	/api/v1/subscriptions/user/:id	Get user subscriptions
+**Users Endpoints**
 
-**Sample Request:**
+<ul>
+<li>GET /api/v1/users   Get all users</li>
+<li>GET /api/v1/users/:id   Get a user with auth token</li>
+<li>POST /api/v1/users  Create a user</li>
+<li>PUT /api/v1/users   Updaye user details with auth token</li>
+<li>DELETE /api/v1/users  Delete a user</li>
+</ul>
 
-<em>
-json
-{
-  "name": "Netflix Premium",<li> "price": 15.99,
-  "currency": "USD",
-  "frequency": "monthly",
-  "category": "entertainment",
-  "startDate": "2025-01-20T00:00:00.000Z",
-  "paymentMethod": "Credit Card"
-}
-</em>
+**Subscription Endpoints**
+
+<ul>
+<li>GET /api/v1/subscriptions   Get all subscriptions</li>
+<li>GET /api/v1/subscriptions/:id	  Get a subscription</li>
+<li>POST	/api/v1/subscriptions	  Create a subscription with auth token</li>
+<li>PUT /api/v1/subscriptions/:id	  Update a subscription with auth token</li>
+<li>DELETE  /api/v1/subscriptions/:id	  Delete a subscription with auth token</li>
+<li>PUT	/api/v1/subscriptions/:id/cancel	Cancel a subscription with auth token</li>
+<li>GET	/api/v1/subscriptions/user/:id	Get user subscriptions with auth token</li>
+</ul>
 
 ## 👨‍💻 Author
 
