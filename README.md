@@ -161,8 +161,10 @@ Click: <a href="https://subscription-tracker-api-efe3d.containers.snapdeploy.app
 
 ## 👨‍💻 Author
 
-**LinkedIn**: <a href="https://www.linkedin.com/in/rahil-pavel-a845b3330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">https://www.linkedin.com/in/rahil-pavel-a845b3330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app</a>
-**Email**: <a href="yfrp.dev@gmail.com">yfrp.dev@gmail.com</a>
-**WhatsApp**: <a href="https://wa.me/message/UVCN3M7OMSVSB1">https://wa.me/message/UVCN3M7OMSVSB1</a>
-**GitHub**: <a href="https://github.com/YFRP01">https://github.com/YFRP01</a>
+- **LinkedIn**: <a href="https://www.linkedin.com/in/rahil-pavel-a845b3330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">https://www.linkedin.com/in/rahil-pavel-a845b3330?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app</a>
+- **Email**: <a href="yfrp.dev@gmail.com">yfrp.dev@gmail.com</a>
+
+- **WhatsApp**: <a href="https://wa.me/message/UVCN3M7OMSVSB1">https://wa.me/message/UVCN3M7OMSVSB1</a>
+
+- **GitHub**: <a href="https://github.com/YFRP01">https://github.com/YFRP01</a>
 
