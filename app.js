@@ -26,7 +26,7 @@ app.use('/api/v1/workflows', workflowRouter)
 
 app.use(errorMiddleware)
 
-app.listen(PORT, async ()=>{
+app.listen(PORT, "0.0.0.0", async ()=>{
     console.log(`Subscription Tracker API running on https://localhost:${PORT}`);
     await connectToDatabase()
 })
