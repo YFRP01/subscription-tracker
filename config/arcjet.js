@@ -6,13 +6,13 @@ const aj = arcjet({
   rules: [
     shield({ mode: "LIVE" }),
     detectBot({
-      mode: "DRY_RUN", 
+      mode: "LIVE", 
       allow: [
         "CATEGORY:SEARCH_ENGINE", "CATEGORY:PREVIEW", // Google, Bing, etc
       ],
     }),
     tokenBucket({
-      mode: "DRY_RUN",
+      mode: "LIVE",
       refillRate: 20, // Refill 5 tokens per interval
       interval: 10, // Refill every 10 seconds
       capacity: 50, // Bucket capacity of 10 tokens
