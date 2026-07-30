@@ -19,9 +19,9 @@ const arcjetMiddleware = async (req, res, next) => {
         // if (decision.ip.isHosting()) {
         //     return res.status(403).json({ error: "Forbidden" });
         // } 
-        // if(decision.results.some(isSpoofedBot)) {
-        //     return res.status(403).json({ error: "No bots allowed" });
-        // } 
+        if(decision.results.some(isSpoofedBot)) {
+            return res.status(403).json({ error: "No bots allowed" });
+        } 
         next()
     } catch (error) {
         console.log(`Arcjet Middleware Error: ${error}`);
