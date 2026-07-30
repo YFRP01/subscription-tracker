@@ -8,7 +8,7 @@ const aj = arcjet({
     detectBot({
       mode: "DRY_RUN", 
       allow: [
-        "CATEGORY:SEARCH_ENGINE", "CATEGORY:PREVIEW", // Google, Bing, etc
+        "CATEGORY:SEARCH_ENGINE", "CATEGORY:PREVIEW", "CATEGORY:API_CLIENT" // Google, Bing, etc
       ],
     }),
     tokenBucket({
