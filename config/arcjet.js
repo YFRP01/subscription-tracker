@@ -4,9 +4,9 @@ import { ARCJET_KEY } from "./env.js";
 const aj = arcjet({
   key: ARCJET_KEY,
   rules: [
-    shield({ mode: "DRY_RUN" }),
+    shield({ mode: "LIVE" }),
     detectBot({
-      mode: "LIVE", 
+      mode: "DRY_RUN", 
       allow: [
         "CATEGORY:SEARCH_ENGINE", "CATEGORY:PREVIEW", // Google, Bing, etc
       ],
