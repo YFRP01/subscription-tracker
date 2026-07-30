@@ -1,11 +1,8 @@
-<h2 style="margin: 0 auto; text-align: center; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 15px 20px; border-radius: 12px; color: white; max-width: 600px; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
-  🚀 Visit 
-  <a href="https://subscription-tracker-api-efe3d.containers.snapdeploy.app" 
-     style="text-decoration: none; color: #ffd700; font-weight: bold;">
-    SUBSCRIPTION TRACKER API
-  </a> 
-  by clicking on this link 
-</h2>
+<h3 align="center">
+  <a href="https://subscription-tracker-api-efe3d.containers.snapdeploy.app" style="text-decoration: none; color: #4a90e2; font-weight: bold;">
+    🚀 Click here to visit the live API
+  </a>
+</h3>
 
 ## 📋 Table of Contents
 
