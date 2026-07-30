@@ -2,7 +2,7 @@
   🚀 Visit 
   <a href="https://subscription-tracker-api-efe3d.containers.snapdeploy.app" 
      style="text-decoration: none; color: #ffd700; font-weight: bold;">
-    SUBSCRIPTION_TRACKER_API
+    SUBSCRIPTION TRACKER API
   </a> 
   by clicking on this link 
 </h2>
