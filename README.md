@@ -1,6 +1,6 @@
-<div align="center">
-  <br />
-
+<div style="display: flex; align-items: center; justify-content: center; width: full;">
+<h1>👉 Visit <a href="https://subscription-tracker-api-efe3d.containers.snapdeploy.app">SUBSCRIPTION_TRACKER_API</a> by clicking on this link</h1>
+</div>
 ## 📋 Table of Contents
 
 1. 🤖 Introduction
@@ -93,6 +93,8 @@ The project was initially inspired by a backend tutorial from JavaScript Mastery
 
 The project follows a modular Express.js architecture:
 
+**Project root:**
+
 subscription-tracker-api
 │
 ├── app.js
@@ -105,14 +107,12 @@ subscription-tracker-api
 │ ├── utils/
 │ └── package.json
 
-
-
 ## 🚀 Deployment
 
-The API is deployed using Docker on SnapDeploy.
+The API is deployed using Docker on <span style="text-decoration: underline dotted;">SnapDeploy</span>.
 
 **Live endpoint:**
-https://subscription-tracker-api-efe3d.containers.snapdeploy.app
+👉 
 
 The application runs inside a container with:
 
@@ -121,52 +121,42 @@ The application runs inside a container with:
 - MongoDB database connection
 - Security middleware enabled
 
-## 🤸 Quick Start
-
-**Prerequisites:**
-
-- Node.js
-- npm
-- Git
-
-
-## 📡 API Usage
+## 🚀 API Usage
 
 **Authentication Endpoints:**
 
-| Method | Endpoint                 | Description         |
-| ------ | ------------------------ | ------------------- |
-| POST   | `/api/v1/auth/sign-up` | Register a new user |
-| POST   | `/api/v1/auth/sign-in` | Login user          |
+Method	Endpoint	Description
+POST	/api/v1/auth/sign-up	Register a new user
+POST	/api/v1/auth/sign-in	Login user
+Subscription Endpoints:
 
-**Subscription Endpoints:**
-
-| Method | Endpoint                             | Description            |
-| ------ | ------------------------------------ | ---------------------- |
-| GET    | `/api/v1/subscriptions`            | Get all subscriptions  |
-| GET    | `/api/v1/subscriptions/:id`        | Get a subscription     |
-| POST   | `/api/v1/subscriptions`            | Create a subscription  |
-| PUT    | `/api/v1/subscriptions/:id`        | Update a subscription  |
-| DELETE | `/api/v1/subscriptions/:id`        | Delete a subscription  |
-| PUT    | `/api/v1/subscriptions/:id/cancel` | Cancel a subscription  |
-| GET    | `/api/v1/subscriptions/user/:id`   | Get user subscriptions |
+Method	Endpoint	Description
+GET	/api/v1/subscriptions	Get all subscriptions
+GET	/api/v1/subscriptions/:id	Get a subscription
+POST	/api/v1/subscriptions	Create a subscription
+PUT	/api/v1/subscriptions/:id	Update a subscription
+DELETE	/api/v1/subscriptions/:id	Delete a subscription
+PUT	/api/v1/subscriptions/:id/cancel	Cancel a subscription
+GET	/api/v1/subscriptions/user/:id	Get user subscriptions
 
 **Sample Request:**
 
+<em>
+json
 {
-  "name": "Netflix Premium",
-  "price": 15.99,
+  "name": "Netflix Premium",<li> "price": 15.99,
   "currency": "USD",
   "frequency": "monthly",
   "category": "entertainment",
   "startDate": "2025-01-20T00:00:00.000Z",
   "paymentMethod": "Credit Card"
 }
+</em>
 
+## 👨‍💻 Author
 
-👨‍💻 Author
-Pavel Youmsi
+<li>Pavel Youmsi</li>
+<li style="">GitHub: @YFRP01</li>
+<li>Gmail: <a href="yfrp.dev@gmail.com">yfrp.dev@gmail.com</a></li>
 
-GitHub: @YFRP01
-
-<p align="center"> Built with ❤️ using Node.js and Express.js </p>
+<h2 align="center" style="text-color: #ee2f2292"> Built with ❤️ using Node.js and Express.js </h2>
