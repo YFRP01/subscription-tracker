@@ -1,4 +1,4 @@
-## <h3 align="center">
+<h3 align="center">
   <a href="https://subscription-tracker-api-efe3d.containers.snapdeploy.app" style="text-decoration: none; color: #4a90e2; font-weight: bold;">
     🚀 Click here to visit the live API
   </a>
